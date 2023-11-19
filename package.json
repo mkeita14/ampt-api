@@ -1,0 +1,18 @@
+{
+  "name": "ampt-api",
+  "version": "1.0.0",
+  "description": "API using @ampt/api",
+  "private": true,
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ampt"
+  },
+  "dependencies": {
+    "@ampt/api": "^0.0.1-beta.10",
+    "nanoid": "^4.0.1"
+  },
+  "ampt": {
+    "app": "ampt-api"
+  }
+}
